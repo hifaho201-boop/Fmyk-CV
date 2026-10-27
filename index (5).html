@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="CV of Fajar Yaqub, Operations & HR Manager in Sohar, Oman">
+<title>Fajar Yaqub CV</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: full-width teal header band with a colour strip, then two columns — sidebar of skills/details, main column of experience */
+:root{
+  --bg:#f6f8f8; --card:#ffffff; --ink:#1b2a2f; --muted:#56686e; --line:#dde5e6;
+  --teal:#0d6e6e; --teal-deep:#08484d; --saffron:#f2a33a; --coral:#e2574c; --violet:#5b4bb7; --leaf:#3f9b5a;
+  --chip-bg:#eaf4f3; --on-band:#ffffff;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1719; --card:#16211f; --ink:#e7eeee; --muted:#9db0b2; --line:#26383a;
+  --teal:#3fb5ad; --teal-deep:#0a3a3e; --saffron:#f5b65c; --coral:#f07a70; --violet:#9d90ef; --leaf:#6cc487;
+  --chip-bg:#1d3331; --on-band:#ffffff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1719; --card:#16211f; --ink:#e7eeee; --muted:#9db0b2; --line:#26383a;
+  --teal:#3fb5ad; --teal-deep:#0a3a3e; --saffron:#f5b65c; --coral:#f07a70; --violet:#9d90ef; --leaf:#6cc487;
+  --chip-bg:#1d3331; --on-band:#ffffff; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{background:linear-gradient(120deg,var(--teal-deep),var(--teal));color:var(--on-band)}
+header .wrap{padding-block:44px 36px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+.mono{width:84px;height:84px;border-radius:50%;background:var(--saffron);color:var(--teal-deep);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:2rem;flex:none}
+.id{display:flex;gap:20px;align-items:center;min-width:0}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2rem,6vw,3.1rem);line-height:1.05;margin:0;text-wrap:balance}
+.role{margin:6px 0 0;font-size:1.1rem;opacity:.92}
+.contact{display:grid;gap:6px;font-size:.98rem}
+.contact span{display:flex;gap:10px;align-items:center;word-break:break-all}
+.contact b{font-weight:600;color:var(--saffron);text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;min-width:52px}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);height:6px}
+.strip i:nth-child(1){background:var(--saffron)}.strip i:nth-child(2){background:var(--coral)}.strip i:nth-child(3){background:var(--violet)}.strip i:nth-child(4){background:var(--leaf)}
+main .wrap{padding-block:32px 48px;display:grid;grid-template-columns:300px 1fr;gap:28px}
+@media (max-width:760px){main .wrap{grid-template-columns:1fr}}
+aside,section{min-width:0}
+.col{display:grid;gap:22px;align-content:start}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
+h2{font-family:var(--display);font-weight:600;font-size:1.25rem;margin:0 0 14px;display:flex;align-items:center;gap:10px}
+h2::before{content:"";width:12px;height:12px;border-radius:3px;background:var(--c,var(--teal))}
+.summary{font-size:1.06rem;margin:0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.stat{border-top:4px solid var(--c);padding-top:8px}
+.stat strong{display:block;font-family:var(--display);font-size:1.7rem;font-weight:800;color:var(--c);font-variant-numeric:tabular-nums}
+.stat span{font-size:.88rem;color:var(--muted)}
+.job+.job{margin-top:22px;padding-top:22px;border-top:1px dashed var(--line)}
+.job h3{margin:0;font-size:1.12rem;font-family:var(--display);font-weight:600}
+.job .org{color:var(--teal);font-weight:600;margin:2px 0 10px}
+ul{margin:0;padding-left:20px;display:grid;gap:6px}
+li::marker{color:var(--coral)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--chip-bg);color:var(--ink);border-left:3px solid var(--c,var(--teal));padding:5px 10px;border-radius:6px;font-size:.92rem}
+.clients{display:flex;flex-wrap:wrap;gap:8px}
+.client{border:1.5px solid var(--violet);color:var(--violet);font-weight:600;padding:4px 12px;border-radius:999px;font-size:.92rem}
+dl{margin:0;display:grid;gap:10px}
+dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+dd{margin:0;font-weight:600}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding-block:0 32px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="id">
+      <div class="mono" aria-hidden="true">FY</div>
+      <div>
+        <h1>Fajar Yaqub</h1>
+        <p class="role">Operations &amp; HR Manager · Visa, Documentation &amp; Accounts</p>
+      </div>
+    </div>
+    <div class="contact">
+      <span><b>Email</b>FAJARYAQUB200@GMAIL.COM</span>
+      <span><b>Phone</b>+968 7283 4696</span>
+      <span><b>Based</b>Sohar, Sultanate of Oman</span>
+    </div>
+  </div>
+  <div class="strip"><i></i><i></i><i></i><i></i></div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="col">
+      <div class="box">
+        <h2 style="--c:var(--saffron)">Profile</h2>
+        <p class="summary">Operations and HR professional with 4 years in Oman's manpower, travel and immigration sector. I handle client employees end to end, from medicals and work visas to insurance, family visas and deployment, and I run the accounts side from purchase order through to invoice. Comfortable with AI tools to speed up documentation and reporting.</p>
+        <div class="stats">
+          <div class="stat" style="--c:var(--teal)"><strong>4+</strong><span>years in the field</span></div>
+          <div class="stat" style="--c:var(--coral)"><strong>150</strong><span>staff managed</span></div>
+          <div class="stat" style="--c:var(--violet)"><strong>33</strong><span>MoL work permits secured</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2 style="--c:var(--coral)">Experience</h2>
+        <div class="job">
+          <h3>Operations &amp; HR Manager</h3>
+          <p class="org">Resours Solutions Services (RSS), Oman</p>
+          <ul>
+            <li>Manage around 150 deployed staff across client sites, covering onboarding, deployment and day-to-day HR.</li>
+            <li>Run the full visa cycle: Ministry of Labour approvals, medicals, residence cards and family visas.</li>
+            <li>Secured 33 expat work-permit approvals on the company's Ministry of Labour ma'thooniya.</li>
+            <li>Arrange employee medical and other insurance with Takaful and Liva.</li>
+            <li>Prepare WPS salary files, payslips and client invoices; also support sister companies Basma and Takreer International.</li>
+            <li>Prepare tender submissions for manpower and HR service contracts.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Travel &amp; Visa Consultant</h3>
+          <p class="org">Travel and immigration services, Oman</p>
+          <ul>
+            <li>Ticketing, travel planning and visa processing for individual and corporate customers.</li>
+            <li>Serve a large customer base from Bangladesh and Pakistan, with materials in English, Bangla and Urdu.</li>
+            <li>Document preparation, attestation follow-up and professional email correspondence.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <aside class="col">
+      <div class="box">
+        <h2 style="--c:var(--violet)">Key Clients</h2>
+        <div class="clients">
+          <span class="client">Velosi / Applus</span>
+          <span class="client">LRQA</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2 style="--c:var(--teal)">Skills</h2>
+        <div class="chips">
+          <span class="chip" style="--c:var(--teal)">Visa &amp; immigration</span>
+          <span class="chip" style="--c:var(--teal)">Family visas</span>
+          <span class="chip" style="--c:var(--coral)">HR operations</span>
+          <span class="chip" style="--c:var(--coral)">Employee deployment</span>
+          <span class="chip" style="--c:var(--coral)">Medical insurance</span>
+          <span class="chip" style="--c:var(--saffron)">PO to invoicing</span>
+          <span class="chip" style="--c:var(--saffron)">WPS payroll</span>
+          <span class="chip" style="--c:var(--saffron)">Accounts</span>
+          <span class="chip" style="--c:var(--violet)">Document handling</span>
+          <span class="chip" style="--c:var(--violet)">Business email</span>
+          <span class="chip" style="--c:var(--leaf)">AI &amp; prompt writing</span>
+          <span class="chip" style="--c:var(--leaf)">Travel ticketing</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2 style="--c:var(--leaf)">Education</h2>
+        <dl>
+          <div><dt>Postgraduate</dt><dd>Master's in Sociology</dd></div>
+        </dl>
+      </div>
+
+      <div class="box">
+        <h2 style="--c:var(--saffron)">Details</h2>
+        <dl>
+          <div><dt>Nationality</dt><dd>Indian</dd></div>
+          <div><dt>Location</dt><dd>Sohar, Oman</dd></div>
+        </dl>
+      </div>
+    </aside>
+  </div>
+</main>
+<footer>Fajar Yaqub · Curriculum Vitae</footer>
+</body>
+</html>
